@@ -1,0 +1,72 @@
+@import url('https://webfontworld.github.io/goodchoice/Jalnan.css');
+.header{
+  width: 100%;
+  height: 135px;
+  border-bottom: 1px solid gray;
+}
+.header .inner{
+  margin: auto;
+  width: 1150px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .inner a{
+  margin-left: 20px;
+  width: 300px;
+  display: flex;
+  text-decoration: none;
+}
+.header .inner .search1{
+  margin-left: 20px;
+  width: 80px;
+  display: flex;
+  text-decoration: none;
+}
+.header .inner a p{
+  letter-spacing: 4px;
+  width: 200px;
+  transform: translate(-20px,10px);
+  font-size: 21px;
+  color: #000;
+}
+.header .inner .logo{
+  line-height: 1.3;
+  font-family: 'Jalnan';
+  font-size: 50px;
+  font-weight: 700;
+  color: red;
+  text-decoration: none;
+  width: 150px;
+  height: 80px;
+}
+.header .inner .logo img{}
+.header .inner .search{
+  position: relative;
+  width: 300px;
+  height: 50px;
+  display: flex;
+}
+.header .inner .search input{
+  font-size: 20px;
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.header .inner .search input:focus {  
+  outline:none;
+  border-bottom: 2px solid #000;}
+  .header .inner .search input:focus::placeholder{
+    color: rgb(0, 0, 0);
+  }
+.header .inner .search img{
+  cursor: pointer;
+  right: 10px;
+  top: 18%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+

@@ -1,0 +1,174 @@
+.h_movie{
+  width: 100%;
+}
+.h_movie h1{
+  color: #000000;
+  font-size: 30px;
+}
+.h_movie .h_inner{
+  width: 1150px;
+  margin:50px auto;
+  background-color: rgb(255, 255, 255);
+}
+.h_movie .h_inner a{
+  color: #000;
+  text-decoration: none;
+}
+.h_movie .h_inner a:hover{
+  color: red;
+}
+.h_movie .home_main{
+  width: 100%;
+  height: 523px;
+  background-color: #000;
+}
+.h_movie .home_main .main_inner{
+  position: relative;
+  width: 1150px;
+  height: 523px;
+  overflow: hidden;
+  margin: auto;
+}
+.h_movie .home_main .main_inner video{
+  width: 100%!important;
+  height: 647px!important;
+  transform: translate(0px, -64px);
+}
+.h_movie .home_main .main_inner nav{
+  padding: 30px;
+  color: #fff;
+  position: absolute;
+  z-index: 50;
+  width: 300px;
+  top: 30%;
+}
+.h_movie .home_main .main_inner nav h3{
+  line-height: 0;
+  font-size: 40px;
+  text-shadow: 5px 5px 5px #000;
+}
+.h_movie .home_main .main_inner nav p{
+  font-size: 25px;
+}
+.h_movie .home_main .main_inner nav a{
+  text-decoration: none;
+}
+.h_movie .home_main .main_inner nav div{
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  line-height: 2.5;
+  color: #000;
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.h_movie .home_main .main_inner nav div:hover{
+  background-color: rgb(15, 104, 238);
+  color: #fff;
+}
+.h_movie .h_item{
+  width: 200px;
+}
+.h_movie .h_item h2{
+  margin: 20px 0 0 0;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size: 20px;
+}
+.h_movie .h_item nav p{
+  z-index: 3;
+  font-size: 18px;
+  color: #fff;
+  line-height: 2.9;
+  position: absolute;
+  background-color: red;
+  top: -23px;
+  border-radius: 0 0 0 20px;
+  right: 0;
+  text-align: center;
+  height: 48px;
+  width: 65px;
+  font-weight: 600;
+}
+.h_movie .h_item nav{
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+.h_movie .h_item nav span{
+  pointer-events: none;
+  left: 25%;
+  top: 45%;
+  position: absolute;
+  z-index: 6;
+  opacity: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.h_movie .h_item nav:hover::before{
+  z-index: 3;
+  opacity: 30%;
+}
+.h_movie .h_item nav:hover span{
+  opacity: 1;
+}
+.h_movie .h_item nav::before{
+  position: absolute;
+  content: '';
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.h_movie .h_item img{
+  width: 200px;
+  height: 300px;
+}
+.h_movie .h_item nav:hover img{
+  transition: 0.5s;
+  scale: 120%;
+}
+.swiper-button-prev,
+.swiper-button-next{
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 100%;
+  width: 50px!important;
+  height: 50px!important;
+  top: 160px!important;
+}
+.swiper-button-next{
+  transform: translate(0px);
+}
+.swiper-button-prev{
+  transform: translate(-35px);
+}
+.swiper-button-next:after {
+  color: #000!important;
+  transform: translate(3px, 0px)!important;
+  font-size: 20px!important;
+}
+.swiper-button-prev:after{
+  color: #000!important;
+  transform: translate(0px)!important;
+  font-size: 20px!important;
+}
+.swiper_inner{
+  width: 1150px;
+  margin: 0 0 0 15px;
+  position: relative;
+}
+.swiper {
+  position:unset!important;
+}
+.swiper-slide{
+}
